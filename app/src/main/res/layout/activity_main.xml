@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorLightYellow"
+  >
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_grid_dimension"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_of_rows"
+        android:layout_below="@id/tv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40sp"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_below="@id/tv2"
+        android:layout_centerHorizontal="true"/>
+        />
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_of_columns"
+        android:layout_below="@id/et1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40sp"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_below="@id/tv3"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instructions"
+        android:layout_below="@id/et2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@color/colorYellowGreen"
+        />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play"
+        android:layout_below="@id/b4"
+        android:background="@color/colorTomato"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"/>
+
+</RelativeLayout>
+

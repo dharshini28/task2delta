@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    >
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="@string/OBJECTIVE"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect4 is a two player game.The aim for both players is to make a straight line of four own pieces;the line can be vertical, horizontal or diagonal."
+        android:layout_below="@id/tv2"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_below="@id/tv3"
+        android:layout_marginTop="50sp"
+        android:textSize="30sp"
+        android:textColor="@color/colorWhite"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/game" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv4"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20sp"
+        android:text="Before starting, players decide randomly which of them will be the beginner; moves are made alternatively, one by turn.Tap over the column you wish to drop your piece in.The winner is the first player who gets a straight line made with four own pieces and no gaps between them."
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_below="@id/tv5"
+        android:layout_marginTop="60sp"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20sp"
+        android:textColor="@color/colorWhite"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Player1_red_coin_Player2_yellow_coin" />
+
+
+</RelativeLayout>

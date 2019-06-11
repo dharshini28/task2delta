@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">task2delta</string>
+    <string name="connect4">connect4</string>
+    <string name="rows">rows</string>
+    <string name="columns">columns</string>
+    <string name="submit">SUBMIT</string>
+    <string name="set_grid_dimension">SET GRID DIMENSION</string>
+    <string name="no_of_rows">No. of rows</string>
+    <string name="no_of_columns">No. of columns</string>
+    <string name="Submit">Submit</string>
+    <string name="play">play</string>
+    <string name="task2delta">task2delta</string>
+    <string name="reset">RESET</string>
+    <string name="go_back">BACK</string>
+    <string name="back">BACK</string>
+    <string name="instructions">INSTRUCTIONS</string>
+    <string name="OBJECTIVE">OBJECTIVE</string>
+    <string name="game">GAME</string>
+    <string name="Player1_red_coin_Player2_yellow_coin">Player1- red coin ; Player2- yellow coin</string>
+    <string name="Play_Again">Play Again</string>
+    <string name="music_on">Music on</string>
+    <string name="music_off">Music off</string>
+</resources>
